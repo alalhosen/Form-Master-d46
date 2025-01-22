@@ -13,7 +13,7 @@ const SimpleForm = () => {
         <br/>
         <input type="email" name="Email" id="" />
         <br/>
-        <input type="text" name="phone" />
+        <input type="password" name="password" />
         <br />
         <input type="submit" value="Submit" />
       </form>
