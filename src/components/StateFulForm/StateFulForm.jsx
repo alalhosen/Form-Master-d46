@@ -21,7 +21,6 @@ const StateFulForm = () => {
   };
 
   const handleEmailChange = (e) => {
-    console.log(e.target.value);
     setEmail(e.target.value);
   };
 
@@ -57,3 +56,5 @@ const StateFulForm = () => {
 };
 
 export default StateFulForm;
+
+ 
