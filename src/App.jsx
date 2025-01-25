@@ -16,7 +16,8 @@ function App() {
       {/* <StateFulForm></StateFulForm> */}
       {/* <RefForm></RefForm> */}
       {/* <HooKForm></HooKForm> */}
-      <ReusableForm></ReusableForm>
+      <ReusableForm formTitle={'Sing Up'}></ReusableForm>
+      <ReusableForm formTitle={'Profile Update'}></ReusableForm>
     </>
   );
 }
