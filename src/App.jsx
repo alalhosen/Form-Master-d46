@@ -16,7 +16,11 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h1>Sing Up & Profile Update Form</h1>
+      <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste fugit necessitatibus, ipsa laboriosam ad iusto architecto nobis voluptatibus perferendis. Itaque in minus quas veritatis facilis voluptas perferendis magnam dolore. Maxime.
+      Nemo, totam officia quos omnis quaerat molestias cumque ipsum. Magnam debitis adipisci optio ex est repudiandae ratione eum facilis dolore eius iusto accusantium, sunt deserunt praesentium reprehenderit inventore molestiae doloremque.
+      Natus modi sit tempore repellendus beatae facere, eaque praesentium itaque quisquam omnis delectus nobis voluptates vero totam maiores assumenda? Quaerat fugit quas tenetur fuga quod pariatur quis deleniti cupiditate maxime!
+    </h3>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StateFulForm></StateFulForm> */}
       {/* <RefForm></RefForm> */}
