@@ -29,7 +29,7 @@ const StateFulForm = () => {
   };
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <div onSubmit={handleSubmit}>
         <input
           value={name}
           onChange={handleNameChange}
@@ -50,7 +50,7 @@ const StateFulForm = () => {
         {
           error && <p>{error}</p>
         }
-      </form>
+      </div>
     </div>
   );
 };
