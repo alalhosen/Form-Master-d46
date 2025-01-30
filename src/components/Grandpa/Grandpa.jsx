@@ -1,17 +1,16 @@
+import { createContext } from "react";
 import Aunty from "../Aunty/Aunty";
 import Dad from "../Dad/Dad";
 import Uncle from "../Uncle/Uncle";
 import "./Grandpa.css";
-
-const AssetContext = createContext("gold");
+export const AssetContext = createContext("gold");
 
 const Grandpa = () => {
   const asset = "Diamond";
   return (
     <div className="grandpa">
       <h2>Grandpa</h2>
-      <AssetContext.Provider value
-      >
+      <AssetContext.Provider value="gold">
         <section className="flex">
           <Dad asset={asset}></Dad>
           <Uncle asset={asset}></Uncle>
@@ -23,3 +22,10 @@ const Grandpa = () => {
 };
 
 export default Grandpa;
+
+
+/**
+ * 1. create a context and export it.
+ * 2. add provider fot the context with a value. value could be anything
+ * 3. useContext to access value in the context API
+ */
